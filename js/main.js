@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 // scroll top
 $(window).scroll(function () {
-    if ($(this).scrollTop() >400) {
+    if ($(window).scrollTop() >500) {
         $('#scroll-top').fadeIn();
     } else {
         $('#scroll-top').fadeOut();
